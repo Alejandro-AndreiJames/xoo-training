@@ -1,0 +1,20 @@
+{
+  "name": "practice-node",
+  "version": "1.0.0",
+  "description": "Practicing JSON parsing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Arkray",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "practice-node": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
